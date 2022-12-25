@@ -1,0 +1,44 @@
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.content-bar {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.hero-bar {
+    background-color: #1f2937;
+}
+
+.subhero-bar {
+
+}
+
+.quote-bar {
+    background-color: #e5e7eb;
+}
+
+.cta-bar {
+
+}
+
+.footer {
+    background-color: #1f2937;
+}
