@@ -82,7 +82,7 @@ ul {
 }
 
 .hero-container {
-    padding: 32px 0 96px 0;
+    padding: 96px 0;
     display: flex;
     gap: 64px;
 }
@@ -98,7 +98,7 @@ ul {
 .hero-right-container img {
     display: block;
     background-color: #b3b3b3;
-    height: 180px;
+    height: 210px;
 }
 
 .hero-secondary-text, .header-links {
