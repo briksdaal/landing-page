@@ -76,6 +76,11 @@ ul {
     gap: 24px;
 }
 
+.header-container a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .hero-container {
     padding: 32px 0 96px 0;
     display: flex;
@@ -101,6 +106,42 @@ ul {
     color: #e5e7eb;
 }
 
+.hero-secondary-text {
+    margin-bottom: 16px;
+}
+
+.subhero-container {
+    text-align: center;
+    padding-bottom: 96px;
+}
+
+.subhero-container h2{
+    padding: 48px 0;
+}
+
+.squares-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 128px;
+}
+
+.square .image-container {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.square p {
+    width: 160px;
+}
+
+.quote-container {
+    box-sizing: border-box;
+    padding: 96px 128px;
+}
+
 .quote-text {
     font-size: 36px;
     font-weight: 300;
@@ -108,9 +149,33 @@ ul {
     color: #1f2937;
 }
 
+.quote-by {
+    margin-right: 32px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: right;
+}
+
 .cta-container {
+    margin: 96px auto;
     background-color: #3882f6;
     color: #fff;
+    border-radius: 10px;
+}
+
+.cta-inner-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 128px;
+}
+
+.cta-title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.cta-container button {
+    border: 2px solid white;
 }
 
 button {
@@ -122,6 +187,9 @@ button {
     font-size: 18px;
     font-weight: 600;
     padding: 8px 32px;
-    margin-top: 16px;
 }
 
+.footer-container {
+    text-align: center;
+    padding: 32px;
+}
